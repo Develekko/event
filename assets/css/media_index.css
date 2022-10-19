@@ -1,0 +1,68 @@
+@media (max-width: 599px) {
+    .caption h1
+    {
+        font-size: 30px;
+        transform: translateY(-20px)!important;
+        -webkit-transform: translateY(-20px)!important;
+        -moz-transform: translateY(-20px)!important;
+        -ms-transform: translateY(-20px)!important;
+        -o-transform: translateY(-20px)!important;
+    }
+    .caption h5
+    {
+        transform: translateY(20px)!important;
+        -webkit-transform: translateY(20px)!important;
+        -moz-transform: translateY(20px)!important;
+        -ms-transform: translateY(20px)!important;
+        -o-transform: translateY(20px)!important;
+    }
+    #singers
+    {
+        padding: 50px 0;
+        width: 95%!important;
+    }
+    #countDown
+    {
+        padding: 50px 50px;
+    }
+    #contact
+    {
+        padding: 50px 20px;
+    }
+}
+
+@media (min-width: 600px) and (max-width:767px) 
+{
+    .caption h1
+    {
+        font-size: 40px;
+        transform: translateY(-20px)!important;
+        -webkit-transform: translateY(-20px)!important;
+        -moz-transform: translateY(-20px)!important;
+        -ms-transform: translateY(-20px)!important;
+        -o-transform: translateY(-20px)!important;
+    }
+    #singers
+    {
+        padding: 50px 0;
+        width: 95%!important;
+    }
+    #countDown
+    {
+        padding: 50px 50px;
+    }
+    #contact
+    {
+        padding: 50px 20px;
+    }
+}
+@media (min-width: 768px) and (max-width:991px) {
+  .caption h1
+  {
+      font-size: 40px;
+  }
+  #countDown h2
+  {
+    padding: 70px 0;
+  }
+}
