@@ -65,6 +65,7 @@ function validationTextarea()
         $(":focus").css("border-color"," rgb(214, 46, 51)")
         $(`form button`).mouseenter(formButtonValidation);
         $('form button').addClass('animate__shakeX bg-danger buttonFormActive');
+        $('form button').css({'cursor':'default','userSelect':'none'})
     }
     else if($('textarea').val()=="")
     {
@@ -81,6 +82,7 @@ function validationTextarea()
         $(`form button`).css({"marginLeft":"0px"})
         $('form button').off('mouseenter', formButtonValidation);
         $('form button').removeClass('animate__shakeX bg-danger buttonFormActive');
+        $('form button').css('cursor','pointer')
     }
 }
 function formButtonValidation(){
