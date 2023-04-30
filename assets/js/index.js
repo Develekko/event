@@ -1,4 +1,4 @@
-let countDownDate = new Date("Dec 7, 2022").getTime();
+let countDownDate = new Date("Dec 31, 2023").getTime();
 let timer = setInterval(countDown, 1000);
 $('.caption span').click(openNav);
 $('.closebtn').click(closeNav);
